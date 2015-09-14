@@ -15,6 +15,13 @@
 		A52386211BA2AD2A006E55E4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A52386201BA2AD2A006E55E4 /* Images.xcassets */; };
 		A52386241BA2AD2A006E55E4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A52386221BA2AD2A006E55E4 /* LaunchScreen.xib */; };
 		A52386301BA2AD2A006E55E4 /* Crc_CodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A523862F1BA2AD2A006E55E4 /* Crc_CodeTests.m */; };
+		DB4AF4EE1BA70FEF00443705 /* UIControl+IgnoreEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4AF4ED1BA70FEF00443705 /* UIControl+IgnoreEvent.m */; };
+		DB728C781BA433E900474A8D /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = DB728C771BA433E900474A8D /* UIView+Category.m */; };
+		DB728C7B1BA4354A00474A8D /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB728C7A1BA4354A00474A8D /* background.jpg */; };
+		DBEE7C601BA46CEA00DD650B /* CustomCollectionFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEE7C5F1BA46CEA00DD650B /* CustomCollectionFlowLayout.m */; };
+		DBEE7C651BA481A400DD650B /* UIWebView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEE7C641BA481A400DD650B /* UIWebView+Category.m */; };
+		DBEE7C691BA4843400DD650B /* ThirdPartService.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEE7C681BA4843400DD650B /* ThirdPartService.m */; };
+		DBEE7C6C1BA4853100DD650B /* UIViewController+AOP.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEE7C6B1BA4853100DD650B /* UIViewController+AOP.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +50,21 @@
 		A52386291BA2AD2A006E55E4 /* Crc-CodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Crc-CodeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A523862E1BA2AD2A006E55E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A523862F1BA2AD2A006E55E4 /* Crc_CodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Crc_CodeTests.m; sourceTree = "<group>"; };
+		DB4AF4EC1BA70FEF00443705 /* UIControl+IgnoreEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+IgnoreEvent.h"; sourceTree = "<group>"; };
+		DB4AF4ED1BA70FEF00443705 /* UIControl+IgnoreEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+IgnoreEvent.m"; sourceTree = "<group>"; };
+		DB728C761BA433E900474A8D /* UIView+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
+		DB728C771BA433E900474A8D /* UIView+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
+		DB728C7A1BA4354A00474A8D /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		DBEE7C5E1BA46CEA00DD650B /* CustomCollectionFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCollectionFlowLayout.h; sourceTree = "<group>"; };
+		DBEE7C5F1BA46CEA00DD650B /* CustomCollectionFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCollectionFlowLayout.m; sourceTree = "<group>"; };
+		DBEE7C621BA46FC300DD650B /* Clang-Snippets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Clang-Snippets.h"; sourceTree = "<group>"; };
+		DBEE7C631BA481A400DD650B /* UIWebView+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+Category.h"; sourceTree = "<group>"; };
+		DBEE7C641BA481A400DD650B /* UIWebView+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+Category.m"; sourceTree = "<group>"; };
+		DBEE7C671BA4843400DD650B /* ThirdPartService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdPartService.h; sourceTree = "<group>"; };
+		DBEE7C681BA4843400DD650B /* ThirdPartService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdPartService.m; sourceTree = "<group>"; };
+		DBEE7C6A1BA4853100DD650B /* UIViewController+AOP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AOP.h"; sourceTree = "<group>"; };
+		DBEE7C6B1BA4853100DD650B /* UIViewController+AOP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AOP.m"; sourceTree = "<group>"; };
+		DBEE7C6E1BA486C900DD650B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +106,12 @@
 		A523860F1BA2AD29006E55E4 /* Crc-Code */ = {
 			isa = PBXGroup;
 			children = (
+				DBEE7C6D1BA486B500DD650B /* Prefixheader */,
+				DBEE7C661BA483F000DD650B /* Magic-Code */,
+				DBEE7C611BA46F9800DD650B /* Clang-Snippets */,
+				DBEE7C5D1BA46CEA00DD650B /* UIKit-Snippets */,
+				DB728C791BA4354A00474A8D /* Resources */,
+				DB728C751BA4336E00474A8D /* Category */,
 				A52386141BA2AD2A006E55E4 /* AppDelegate.h */,
 				A52386151BA2AD2A006E55E4 /* AppDelegate.m */,
 				A52386171BA2AD2A006E55E4 /* MasterViewController.h */,
@@ -122,6 +150,63 @@
 				A523862E1BA2AD2A006E55E4 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB728C751BA4336E00474A8D /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				DB728C761BA433E900474A8D /* UIView+Category.h */,
+				DB728C771BA433E900474A8D /* UIView+Category.m */,
+				DBEE7C631BA481A400DD650B /* UIWebView+Category.h */,
+				DBEE7C641BA481A400DD650B /* UIWebView+Category.m */,
+				DBEE7C6A1BA4853100DD650B /* UIViewController+AOP.h */,
+				DBEE7C6B1BA4853100DD650B /* UIViewController+AOP.m */,
+				DB4AF4EC1BA70FEF00443705 /* UIControl+IgnoreEvent.h */,
+				DB4AF4ED1BA70FEF00443705 /* UIControl+IgnoreEvent.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		DB728C791BA4354A00474A8D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DB728C7A1BA4354A00474A8D /* background.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DBEE7C5D1BA46CEA00DD650B /* UIKit-Snippets */ = {
+			isa = PBXGroup;
+			children = (
+				DBEE7C5E1BA46CEA00DD650B /* CustomCollectionFlowLayout.h */,
+				DBEE7C5F1BA46CEA00DD650B /* CustomCollectionFlowLayout.m */,
+			);
+			path = "UIKit-Snippets";
+			sourceTree = "<group>";
+		};
+		DBEE7C611BA46F9800DD650B /* Clang-Snippets */ = {
+			isa = PBXGroup;
+			children = (
+				DBEE7C621BA46FC300DD650B /* Clang-Snippets.h */,
+			);
+			path = "Clang-Snippets";
+			sourceTree = "<group>";
+		};
+		DBEE7C661BA483F000DD650B /* Magic-Code */ = {
+			isa = PBXGroup;
+			children = (
+				DBEE7C671BA4843400DD650B /* ThirdPartService.h */,
+				DBEE7C681BA4843400DD650B /* ThirdPartService.m */,
+			);
+			path = "Magic-Code";
+			sourceTree = "<group>";
+		};
+		DBEE7C6D1BA486B500DD650B /* Prefixheader */ = {
+			isa = PBXGroup;
+			children = (
+				DBEE7C6E1BA486C900DD650B /* PrefixHeader.pch */,
+			);
+			path = Prefixheader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A523861F1BA2AD2A006E55E4 /* Main.storyboard in Resources */,
+				DB728C7B1BA4354A00474A8D /* background.jpg in Resources */,
 				A52386241BA2AD2A006E55E4 /* LaunchScreen.xib in Resources */,
 				A52386211BA2AD2A006E55E4 /* Images.xcassets in Resources */,
 			);
@@ -224,9 +310,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBEE7C691BA4843400DD650B /* ThirdPartService.m in Sources */,
 				A52386161BA2AD2A006E55E4 /* AppDelegate.m in Sources */,
+				DB4AF4EE1BA70FEF00443705 /* UIControl+IgnoreEvent.m in Sources */,
 				A52386191BA2AD2A006E55E4 /* MasterViewController.m in Sources */,
+				DBEE7C601BA46CEA00DD650B /* CustomCollectionFlowLayout.m in Sources */,
+				DBEE7C651BA481A400DD650B /* UIWebView+Category.m in Sources */,
 				A52386131BA2AD29006E55E4 /* main.m in Sources */,
+				DB728C781BA433E900474A8D /* UIView+Category.m in Sources */,
+				DBEE7C6C1BA4853100DD650B /* UIViewController+AOP.m in Sources */,
 				A523861C1BA2AD2A006E55E4 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,6 +447,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Crc-Code/Prefixheader/PrefixHeader.pch";
 				INFOPLIST_FILE = "Crc-Code/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -365,6 +458,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Crc-Code/Prefixheader/PrefixHeader.pch";
 				INFOPLIST_FILE = "Crc-Code/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,6 +518,7 @@
 				A52386351BA2AD2A006E55E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A52386361BA2AD2A006E55E4 /* Build configuration list for PBXNativeTarget "Crc-CodeTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +527,7 @@
 				A52386381BA2AD2A006E55E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
