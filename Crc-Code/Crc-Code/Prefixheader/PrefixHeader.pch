@@ -1,0 +1,30 @@
+//
+//  PrefixHeader.pch
+//  Crc-Code
+//
+//  Created by doudou on 9/13/15.
+//  Copyright (c) 2015 Crc. All rights reserved.
+//
+
+#ifndef Crc_Code_PrefixHeader_pch
+#define Crc_Code_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+/**
+ *  手动添加pch 路径设置:
+ 在path中写的$(SRCROOT)/BlockAndDelegatePassValueDemo/PrefixHeader.pch，还是很好理解的。$(SRCROOT)代表了工程的相对路径，你写完path，敲一下回车，path里就是绝对路径了
+ ,然后紧跟后面的/BlockAndDelegatePassValueDemo是target名，最后是/PrefixHeader.pch.pch的名
+ */
+
+#ifdef __OPTIMIZE__
+#define NSLog(...)
+#endif
+
+#define BACK(block) dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT,0), block)
+#define MAIN(block) dispatch_async(dispatch_get_main_queue(),block)
+
+#import "UIView+Category.h"
+
+#endif
