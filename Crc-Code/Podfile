@@ -1,0 +1,35 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '7.0'
+inhibit_all_warnings!
+
+pod 'NSDate-Extensions', '~> 0.0.1'
+
+=begin
+
+pod 'AFNetworking', '~> 2.5.3'
+pod 'SDWebImage', '~> 3.7.2'
+pod 'RDVTabBarController','~>1.1.9'
+pod 'AHKNavigationController'
+pod 'MJRefresh'
+
+pod 'Toast', '~> 2.4'
+pod 'IQKeyboardManager', '~> 3.2.3'
+pod 'Masonry'
+ 
+ pod 'DTCoreText', '~> 1.6.15'
+ pod 'TSMessages', '~> 0.9.12' 
+ pod 'MBProgressHUD', '~> 0.9.1'
+ pod 'IQActionSheetPickerView', '~> 1.0.1'
+ pod 'MGSwipeTableCell', '~> 1.5.1'
+ pod 'REMenu', '~> 1.10'
+ 
+ #----------------------menu----------------------
+ pod 'KxMenu', '~> 1'
+ pod 'QBPopupMenu', '~> 2.0'
+ pod 'IGLDropDownMenu', '~> 1.0.0'
+ pod 'DWBubbleMenuButton', '~> 1.0.1'     
+ pod 'AwesomeMenu', '~> 1.0.0'
+ pod 'RWDropdownMenu', '~> 1.0.2'
+ 
+=end

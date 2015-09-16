@@ -27,4 +27,10 @@
  *  找modal窗口中的viewController
  */
 - (UIViewController *)viewControllerInModalViewController;
+
+/**
+ *  获取当前屏幕显示的viewcontroller
+ */
+- (UIViewController *)getCurrentViewController;
+
 @end
