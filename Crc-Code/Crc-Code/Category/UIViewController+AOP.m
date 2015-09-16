@@ -65,14 +65,14 @@ void swizzleMethod(Class class, SEL originalSelector, SEL swizzledSelector)  {
 - (void)aop_viewDidLoad {
     [self aop_viewDidLoad];
     if ([self isKindOfClass:[UINavigationController class]]) {
-        UINavigationController *nav = (UINavigationController *)self;
-        nav.navigationBar.translucent = NO;
-        nav.navigationBar.tintColor = [UIColor whiteColor];
-        NSDictionary *titleAtt = @{NSForegroundColorAttributeName:[UIColor whiteColor]};
-        [[UINavigationBar appearance] setTitleTextAttributes:titleAtt];
-        [[UIBarButtonItem appearance]
-         setBackButtonTitlePositionAdjustment:UIOffsetMake(0, -60)
-         forBarMetrics:UIBarMetricsDefault];
+//        UINavigationController *nav = (UINavigationController *)self;
+//        nav.navigationBar.translucent = NO;
+//        nav.navigationBar.tintColor = [UIColor whiteColor];
+//        NSDictionary *titleAtt = @{NSForegroundColorAttributeName:[UIColor whiteColor]};
+//        [[UINavigationBar appearance] setTitleTextAttributes:titleAtt];
+//        [[UIBarButtonItem appearance]
+//         setBackButtonTitlePositionAdjustment:UIOffsetMake(0, -60)
+//         forBarMetrics:UIBarMetricsDefault];
     }
     //    self.view.backgroundColor = [UIColor whiteColor];self.navigationController.interactivePopGestureRecognizer.delegate = (id<uigesturerecognizerdelegate>)self;
 }

@@ -1,0 +1,10 @@
+PODS:
+  - NSDate-Extensions (0.0.1)
+
+DEPENDENCIES:
+  - NSDate-Extensions (~> 0.0.1)
+
+SPEC CHECKSUMS:
+  NSDate-Extensions: cbd68ecf5cf8a150644e184b4521d7734fea5ace
+
+COCOAPODS: 0.37.2
